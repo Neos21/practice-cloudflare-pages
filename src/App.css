@@ -14,6 +14,16 @@ h1.title {
   font-size: 1rem;
 }
 
+h1.title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1.title a:hover,
+h1.title a:focus {
+  text-decoration: underline;
+}
+
 div.message {
   grid-area: message;
   align-self: center;  /* Grid 内でこの要素のみ垂直中央揃えにする (親要素に指定する align-items の子要素版) */

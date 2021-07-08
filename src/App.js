@@ -118,7 +118,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1 className="title">Shared Note</h1>
+        { /* eslint-disable-next-line */ }
+        <h1 className="title"><a href="https://neos21.net/" target="_blank" title="Author : Neo">Shared Note</a></h1>
         <div className="message">{this.state.message}</div>
         <button type="button" onClick={this.onLoad} className="load">Load</button>
         <button type="button" onClick={this.onSave} className="save">Save</button>
