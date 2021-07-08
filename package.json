@@ -1,7 +1,27 @@
 {
   "name": "practice-cloudflare-pages",
-  "version": "0.1.0",
+  "version": "0.0.0",
+  "description": "Practice Cloudflare Pages",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-cloudflare-pages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-cloudflare-pages/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "11.2.7",
@@ -10,12 +30,6 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "1.1.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
