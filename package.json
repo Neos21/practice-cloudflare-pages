@@ -5,12 +5,11 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
   "license": "MIT",
+  "homepage": "https://practice-cloudflare-pages.pages.dev/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Neos21/practice-cloudflare-pages.git"
@@ -23,19 +22,9 @@
     "url": "https://github.com/sponsors/Neos21"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "5.14.1",
-    "@testing-library/react": "11.2.7",
-    "@testing-library/user-event": "12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "1.1.2"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "react-scripts": "4.0.3"
   },
   "browserslist": {
     "production": [
@@ -47,6 +36,11 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
     ]
   }
 }
